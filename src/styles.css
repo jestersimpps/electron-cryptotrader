@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #131722;
+  padding-top: 56px;
+}
+.wrapper {
+  position: absolute;
+  padding-top: 56px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: #131722;
+  overflow: hidden;
+}
+.btn-margin {
+  margin-top: 7px;
+}
+.highcharts-background {
+  fill: #343a40;
+}
+.highcharts-title {
+  fill: white !important;
+}
+.navbar {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+.bg-dark {
+  background-color: #131722 !important;
+}
+.navbar-dark {
+  background-color: #131722 !important;
+}
+.bull {
+  color: #57b888;
+}
+
+.bear {
+  color: #e94f5f;
+}
+.open {
+  color: #25a2b7;
+  animation: blinker 1s linear infinite;
+}
+.badge:hover {
+  color: white !important;
+}
+.input-group-text {
+  border: none;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.ag-theme-dark .ag-cell-data-changed {
+  background-color: #157efb !important;
+}
+app-root {
+  overflow: hidden;
+}
+
+.ag-group-value {
+  font-weight: bold;
+  color: #fff;
+}
+
+.ag-group-child-count {
+  font-weight: bold;
+  color: #fff;
+}
+
+.ag-row-group {
+  background-color: #131722 !important;
+  /* border: 1px dotted #808080; */
+}
+
+.dark-modal .modal-content {
+  background-color: #131722;
+  color: white;
+  border: 1px solid #fff;
+}
+
+.dark-modal .close {
+  color: white;
+}
+
+.card {
+  background: #343a40 !important;
+  color: #fff !important;
+}
+
+.card-body {
+  padding: 0px !important;
+}
+
+.nav-link[role='tab'] {
+  color: #fff !important;
+}
+
+.ag-dark .ag-row-odd {
+  background-color: #131722 !important;
+}
+
+.ag-dark .ag-row-even {
+  background-color: #2f3340 !important;
+}
+
+.ag-body {
+  background-color: #131722 !important;
+}
+
+.ag-row-selected {
+  background-color: #4a708b !important;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #2f3340 !important;
+}
+.ag-root ::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+.ag-root ::-webkit-scrollbar-button {
+  background: #2f3340;
+}
+.ag-root ::-webkit-scrollbar-track-piece {
+  background: #2f3340;
+}
+.ag-root ::-webkit-scrollbar-thumb {
+  background: #157efb;
+}
+​ {
+}
+.nav-link.active {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
